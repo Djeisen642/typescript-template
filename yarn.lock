@@ -1342,7 +1342,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/eslint-plugin@latest":
+"@typescript-eslint/eslint-plugin@npm:^5.45.0":
   version: 5.45.0
   resolution: "@typescript-eslint/eslint-plugin@npm:5.45.0"
   dependencies:
@@ -1365,7 +1365,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/parser@latest":
+"@typescript-eslint/parser@npm:^5.45.0":
   version: 5.45.0
   resolution: "@typescript-eslint/parser@npm:5.45.0"
   dependencies:
@@ -2415,7 +2415,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint@npm:^8.28.0":
+"eslint@npm:^8.29.0":
   version: 8.29.0
   resolution: "eslint@npm:8.29.0"
   dependencies:
@@ -5325,9 +5325,9 @@ __metadata:
     "@tsconfig/node16-strictest": ^1.0.4
     "@types/jest": ^29.2.3
     "@types/node": ^18.11.10
-    "@typescript-eslint/eslint-plugin": latest
-    "@typescript-eslint/parser": latest
-    eslint: ^8.28.0
+    "@typescript-eslint/eslint-plugin": ^5.45.0
+    "@typescript-eslint/parser": ^5.45.0
+    eslint: ^8.29.0
     eslint-config-prettier: ^8.5.0
     eslint-plugin-jest: ^27.1.6
     eslint-plugin-prettier: ^4.2.1
