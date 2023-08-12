@@ -2,7 +2,7 @@
 
 Template using the following tools
 
-* node 16 (https://github.com/nodejs/release#release-schedule)
+* node 18 (https://github.com/nodejs/release#release-schedule)
 * nvm (https://github.com/nvm-sh/nvm)
 * yarn (https://yarnpkg.com/)
 * typescript (https://www.typescriptlang.org/)
@@ -16,7 +16,7 @@ Template using the following tools
 
 Assumes that nvm and yarn are installed
 
-Assumes that Jetbrains Intellij (https://www.jetbrains.com/idea/) is the IDE
+Assumes that Jetbrains Intellij (https://www.jetbrains.com/idea/) or vscode (https://code.visualstudio.com/) is the IDE
 
 ## Commands
 
