@@ -16,13 +16,6 @@
     "print-test-lint-rules": "eslint --print-config ./src/tests/example.test.ts > ./temp/test-rules.txt",
     "test": "jest"
   },
-  "jest": {
-    "moduleNameMapper": {
-      "@/(.*)": "<rootDir>/src/$1"
-    },
-    "preset": "ts-jest",
-    "testEnvironment": "node"
-  },
   "devDependencies": {
     "@commitlint/cli": "^17.7.1",
     "@commitlint/config-conventional": "^17.7.0",
@@ -46,9 +39,9 @@
     "ts-node": "^10.9.1",
     "typescript": "5.1.6"
   },
-  "packageManager": "yarn@3.6.0",
+  "packageManager": "yarn@3.6.1",
   "engines": {
-    "node": "16",
+    "node": "18",
     "npm": "please-use-yarn",
     "yarn": ">= 3.4.1"
   }
