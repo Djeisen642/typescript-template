@@ -14,35 +14,36 @@
     "postpack": "pinst --enable",
     "print-lint-rules": "eslint --print-config ./src/example.ts > ./temp/rules.txt",
     "print-test-lint-rules": "eslint --print-config ./src/tests/example.test.ts > ./temp/test-rules.txt",
-    "test": "jest"
+    "test": "jest",
+    "up-i": "yarn upgrade-interactive && yarn dedupe"
   },
   "devDependencies": {
-    "@commitlint/cli": "^17.7.1",
-    "@commitlint/config-conventional": "^17.7.0",
+    "@commitlint/cli": "17.7.0",
+    "@commitlint/config-conventional": "17.7.0",
     "@trivago/prettier-plugin-sort-imports": "^4.2.0",
-    "@tsconfig/node18": "^18.2.0",
+    "@tsconfig/node18": "^18.2.1",
     "@tsconfig/strictest": "^2.0.1",
-    "@types/jest": "^29.5.3",
-    "@types/node": "^20.4.10",
-    "@typescript-eslint/eslint-plugin": "^6.3.0",
-    "@typescript-eslint/parser": "^6.3.0",
-    "eslint": "^8.47.0",
+    "@types/jest": "^29.5.4",
+    "@types/node": "^20.5.6",
+    "@typescript-eslint/eslint-plugin": "^6.4.1",
+    "@typescript-eslint/parser": "^6.4.1",
+    "eslint": "^8.48.0",
     "eslint-config-prettier": "^9.0.0",
     "eslint-plugin-jest": "^27.2.3",
     "eslint-plugin-prettier": "^5.0.0",
     "husky": "^8.0.3",
-    "jest": "^29.6.2",
+    "jest": "^29.6.4",
     "pinst": "^3.0.0",
-    "prettier": "^3.0.1",
+    "prettier": "^3.0.2",
     "prettier-config-standard": "^7.0.0",
     "ts-jest": "^29.1.1",
     "ts-node": "^10.9.1",
     "typescript": "5.1.6"
   },
-  "packageManager": "yarn@3.6.1",
+  "packageManager": "yarn@3.6.3",
   "engines": {
-    "node": "18",
+    "node": ">= 18",
     "npm": "please-use-yarn",
-    "yarn": ">= 3.4.1"
+    "yarn": ">= 3.6.3"
   }
 }
