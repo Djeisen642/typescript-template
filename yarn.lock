@@ -454,13 +454,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@commitlint/cli@npm:17.7.0":
-  version: 17.7.0
-  resolution: "@commitlint/cli@npm:17.7.0"
+"@commitlint/cli@npm:17.7.1":
+  version: 17.7.1
+  resolution: "@commitlint/cli@npm:17.7.1"
   dependencies:
     "@commitlint/format": ^17.4.4
     "@commitlint/lint": ^17.7.0
-    "@commitlint/load": ^17.7.0
+    "@commitlint/load": ^17.7.1
     "@commitlint/read": ^17.5.1
     "@commitlint/types": ^17.4.4
     execa: ^5.0.0
@@ -470,7 +470,7 @@ __metadata:
     yargs: ^17.0.0
   bin:
     commitlint: cli.js
-  checksum: 2cade70c4cd6205f134c523f7666b5ec16daed89c0a34353b392988115a690b2108b8146e84dfdca725fbea99a2a40f6f49384968aece68da81c6cf7680aeff7
+  checksum: 2500a50514ab0629d3661d74e6f759f0b9b56c1992fbc101bb78a67033c6ed02a6dad3ae728f91f1f9b3034ae17e3808835957f885ab7129a421085d31f6cb23
   languageName: node
   linkType: hard
 
@@ -546,7 +546,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@commitlint/load@npm:^17.7.0":
+"@commitlint/load@npm:^17.7.1":
   version: 17.7.1
   resolution: "@commitlint/load@npm:17.7.1"
   dependencies:
@@ -5589,7 +5589,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "typescript-template@workspace:."
   dependencies:
-    "@commitlint/cli": 17.7.0
+    "@commitlint/cli": 17.7.1
     "@commitlint/config-conventional": 17.7.0
     "@trivago/prettier-plugin-sort-imports": ^4.2.0
     "@tsconfig/node18": ^18.2.1
@@ -5609,21 +5609,11 @@ __metadata:
     prettier-config-standard: ^7.0.0
     ts-jest: ^29.1.1
     ts-node: ^10.9.1
-    typescript: 5.1.6
+    typescript: 5.2.2
   languageName: unknown
   linkType: soft
 
-"typescript@npm:5.1.6":
-  version: 5.1.6
-  resolution: "typescript@npm:5.1.6"
-  bin:
-    tsc: bin/tsc
-    tsserver: bin/tsserver
-  checksum: b2f2c35096035fe1f5facd1e38922ccb8558996331405eb00a5111cc948b2e733163cc22fab5db46992aba7dd520fff637f2c1df4996ff0e134e77d3249a7350
-  languageName: node
-  linkType: hard
-
-"typescript@npm:^4.6.4 || ^5.0.0":
+"typescript@npm:5.2.2, typescript@npm:^4.6.4 || ^5.0.0":
   version: 5.2.2
   resolution: "typescript@npm:5.2.2"
   bin:
@@ -5633,17 +5623,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@5.1.6#~builtin<compat/typescript>":
-  version: 5.1.6
-  resolution: "typescript@patch:typescript@npm%3A5.1.6#~builtin<compat/typescript>::version=5.1.6&hash=5da071"
-  bin:
-    tsc: bin/tsc
-    tsserver: bin/tsserver
-  checksum: f53bfe97f7c8b2b6d23cf572750d4e7d1e0c5fff1c36d859d0ec84556a827b8785077bc27676bf7e71fae538e517c3ecc0f37e7f593be913d884805d931bc8be
-  languageName: node
-  linkType: hard
-
-"typescript@patch:typescript@^4.6.4 || ^5.0.0#~builtin<compat/typescript>":
+"typescript@patch:typescript@5.2.2#~builtin<compat/typescript>, typescript@patch:typescript@^4.6.4 || ^5.0.0#~builtin<compat/typescript>":
   version: 5.2.2
   resolution: "typescript@patch:typescript@npm%3A5.2.2#~builtin<compat/typescript>::version=5.2.2&hash=f3b441"
   bin:
