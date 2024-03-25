@@ -1164,10 +1164,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tsconfig/strictest@npm:^2.0.2":
-  version: 2.0.2
-  resolution: "@tsconfig/strictest@npm:2.0.2"
-  checksum: 5409233288d872a2d79aca5eb65d3da681c6e0baa9ee58744adceda834fececdaa8265869793cfd5a80f4c887e3296b4d13309ef5bffbf7c8272071f00b60ba7
+"@tsconfig/strictest@npm:^2.0.4":
+  version: 2.0.4
+  resolution: "@tsconfig/strictest@npm:2.0.4"
+  checksum: 72c4ea1715b8bd47b7944edd29caff60a6e29bd8996cb5f36fae617cf1e0cb4e1fa9fef0c0aaf62ebb2aa70bc197e6fe61d038f678de2818c6f9c20e882f056a
   languageName: node
   linkType: hard
 
@@ -5630,7 +5630,7 @@ __metadata:
     "@commitlint/config-conventional": "npm:18.4.3"
     "@trivago/prettier-plugin-sort-imports": "npm:^4.3.0"
     "@tsconfig/node18": "npm:^18.2.2"
-    "@tsconfig/strictest": "npm:^2.0.2"
+    "@tsconfig/strictest": "npm:^2.0.4"
     "@types/jest": "npm:^29.5.11"
     "@types/node": "npm:^20.10.4"
     "@typescript-eslint/eslint-plugin": "npm:^6.14.0"
