@@ -8,7 +8,9 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "editor.codeActionsOnSave": {
-    "source.fixAll.stylelint": true
+    "source.fixAll.stylelint": "explicit"
   },
-  "eslint.validate": ["typescript"]
+  "eslint.validate": ["typescript"],
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 2000
 }

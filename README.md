@@ -2,8 +2,8 @@
 
 Template using the following tools
 
-- node 18 (https://github.com/nodejs/release#release-schedule)
-- nvm (https://github.com/nvm-sh/nvm)
+- node 20 (https://github.com/nodejs/release#release-schedule)
+- nvm (https://github.com/nvm-sh/nvm) or volta (https://volta.sh/)
 - yarn (https://yarnpkg.com/)
 - typescript (https://www.typescriptlang.org/)
 - prettier (https://prettier.io/)
@@ -14,15 +14,15 @@ Template using the following tools
 - dependabot (https://docs.github.com/en/code-security/dependabot)
 - codeql (https://codeql.github.com/)
 
-Assumes that nvm and yarn are installed
+Assumes that nvm (or volta) and yarn are installed
 
 Assumes that JetBrains IntelliJ (https://www.jetbrains.com/idea/) or Visual Studio Code (https://code.visualstudio.com/) is the IDE
 
 ## Commands
 
-run `nvm install` to ensure that the correct node version is installed
+run `nvm install` or `volta install node` to ensure that the correct node version is installed
 
-run `yarn set version berry` to use the latest yarn version
+run `yarn set version berry` or `volta install yarn` to use the latest yarn version
 
 run `yarn` to install packages
 
