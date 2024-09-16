@@ -1276,12 +1276,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*, @types/node@npm:^22.5.1":
+"@types/node@npm:*":
   version: 22.5.1
   resolution: "@types/node@npm:22.5.1"
   dependencies:
     undici-types: "npm:~6.19.2"
   checksum: 10/adcec0e8a9ec9112a8cc9529b7d633356c2377fe69ca6e6de4ee39cacb8c86a18a9b7ba658e2456f8ad90d5b76767b268f517b0336c6db787cb056dcdfed107a
+  languageName: node
+  linkType: hard
+
+"@types/node@npm:^22.5.5":
+  version: 22.5.5
+  resolution: "@types/node@npm:22.5.5"
+  dependencies:
+    undici-types: "npm:~6.19.2"
+  checksum: 10/172d02c8e6d921699edcf559c28b3805616bd6481af1b3cb0299f89ad9a6f33b71050434c06ce7b503166054a26275344187c443f99f745d0b12601372452f19
   languageName: node
   linkType: hard
 
@@ -5218,7 +5227,7 @@ __metadata:
     "@tsconfig/node18": "npm:^18.2.4"
     "@tsconfig/strictest": "npm:^2.0.5"
     "@types/jest": "npm:^29.5.12"
-    "@types/node": "npm:^22.5.1"
+    "@types/node": "npm:^22.5.5"
     "@typescript-eslint/eslint-plugin": "npm:^7.18.0"
     "@typescript-eslint/parser": "npm:^7.18.0"
     eslint: "npm:^8.57.0"
@@ -5248,11 +5257,11 @@ __metadata:
 
 "typescript@patch:typescript@npm%3A5.5.4#optional!builtin<compat/typescript>":
   version: 5.5.4
-  resolution: "typescript@patch:typescript@npm%3A5.5.4#optional!builtin<compat/typescript>::version=5.5.4&hash=b45daf"
+  resolution: "typescript@patch:typescript@npm%3A5.5.4#optional!builtin<compat/typescript>::version=5.5.4&hash=379a07"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 10/2c065f0ef81855eac25c9b658a3c9da65ffc005260c12854c2286f40f3667e1b1ecf8bdbdd37b59aa0397920378ce7900bff8cb32e0f1c7af6fd86efc676718c
+  checksum: 10/746fdd0865c5ce4f15e494c57ede03a9e12ede59cfdb40da3a281807853fe63b00ef1c912d7222143499aa82f18b8b472baa1830df8804746d09b55f6cf5b1cc
   languageName: node
   linkType: hard
 
