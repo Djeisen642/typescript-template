@@ -32,15 +32,15 @@
     "eslint-plugin-jest": "28.14.0",
     "eslint-plugin-prettier": "5.5.5",
     "husky": "9.1.7",
-    "jest": "30.3.0",
+    "jest": "30.4.2",
     "pinst": "3.0.0",
-    "prettier": "3.8.1",
+    "prettier": "3.8.3",
     "prettier-config-standard": "7.0.0",
-    "ts-jest": "29.4.6",
+    "ts-jest": "29.4.11",
     "ts-node": "10.9.2",
     "typescript": "5.9.3"
   },
-  "packageManager": "yarn@4.13.0",
+  "packageManager": "yarn@4.15.0",
   "engines": {
     "node": ">= 20",
     "npm": "please-use-yarn",
@@ -48,6 +48,6 @@
   },
   "volta": {
     "node": "24.16.0",
-    "yarn": "4.13.0"
+    "yarn": "4.15.0"
   }
 }
