@@ -1409,12 +1409,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:24.12.4":
-  version: 24.12.4
-  resolution: "@types/node@npm:24.12.4"
+"@types/node@npm:24.13.0":
+  version: 24.13.0
+  resolution: "@types/node@npm:24.13.0"
   dependencies:
-    undici-types: "npm:~7.16.0"
-  checksum: 10/4e5ce6faaf0e6f291114d6ac14fe546d491812b306107620802d5bef00ca36fb290637e79ec4fc24f33214f78f58c9b63254bd0ce94788bebfec03f26d45f2ea
+    undici-types: "npm:~7.18.0"
+  checksum: 10/13e69ffde58cfdade78fba370afaa193b5666962a9c9e8bbf0281ba2447e13c36638b8d8abc7be894cc87ab3abf60560bbb65804f5d9e56bcd30aae1e4d4de24
   languageName: node
   linkType: hard
 
@@ -5168,7 +5168,7 @@ __metadata:
     "@tsconfig/node18": "npm:18.2.6"
     "@tsconfig/strictest": "npm:2.0.8"
     "@types/jest": "npm:30.0.0"
-    "@types/node": "npm:24.12.4"
+    "@types/node": "npm:24.13.0"
     "@typescript-eslint/eslint-plugin": "npm:8.60.1"
     "@typescript-eslint/parser": "npm:8.60.1"
     eslint: "npm:8.57.1"
@@ -5212,13 +5212,6 @@ __metadata:
   bin:
     uglifyjs: bin/uglifyjs
   checksum: 10/6b9639c1985d24580b01bb0ab68e78de310d38eeba7db45bec7850ab4093d8ee464d80ccfaceda9c68d1c366efbee28573b52f95e69ac792354c145acd380b11
-  languageName: node
-  linkType: hard
-
-"undici-types@npm:~7.16.0":
-  version: 7.16.0
-  resolution: "undici-types@npm:7.16.0"
-  checksum: 10/db43439f69c2d94cc29f75cbfe9de86df87061d6b0c577ebe9bb3255f49b22c50162a7d7eb413b0458b6510b8ca299ac7cff38c3a29fbd31af9f504bcf7fbc0d
   languageName: node
   linkType: hard
 
