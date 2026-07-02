@@ -34,7 +34,7 @@
     "husky": "9.1.7",
     "jest": "30.4.2",
     "pinst": "3.0.0",
-    "prettier": "3.9.1",
+    "prettier": "3.9.3",
     "prettier-config-standard": "7.0.0",
     "ts-jest": "29.4.11",
     "ts-node": "10.9.2",
