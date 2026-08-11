@@ -9,7 +9,7 @@ Template using the following tools
 - prettier (https://prettier.io/)
 - eslint (https://eslint.org/)
 - jest (https://jestjs.io/)
-- husky (https://typicode.github.io/husky/#/)
+- lefthook (https://lefthook.dev/)
 - commitlint (https://commitlint.js.org/#/)
 - dependabot (https://docs.github.com/en/code-security/dependabot)
 - codeql (https://codeql.github.com/)
@@ -31,3 +31,26 @@ run `yarn test` to run tests
 run `yarn lint` to run linter
 
 run `yarn up-i` to update packages
+
+## Project Structure
+
+```
+.
+├── .github/workflows/    # CI (lint + test) and Renovate auto-approve
+├── src/
+│   ├── index.ts          # library entry point
+│   └── tests/            # jest specs (jest/* eslint rules apply only here)
+├── lefthook.yml          # git hooks: pre-commit (lint+test), commit-msg (commitlint)
+├── eslint.config.js      # flat-config ESLint setup (eslint 9+)
+├── commitlint.config.js  # conventional-commit message rules
+├── .prettierrc.js        # prettier config, extends prettier-config-standard
+├── jest.config.json      # jest + ts-jest config
+├── tsconfig.json         # extends @tsconfig/node18
+└── renovate.json         # automated dependency update policy
+```
+
+Config files worth knowing about:
+
+- **`volta` field in `package.json`** pins the node and yarn versions for local development (via [volta](https://volta.sh/)). `actions/setup-node` in CI reads this same field, so local dev and CI stay pinned to the same node version.
+- **`lefthook.yml`** replaces the old `.husky/` directory. Hooks are installed automatically via the `postinstall` script (`lefthook install`) whenever `yarn` is run.
+- **`eslint.config.js`** replaces the old `.eslintrc.js` / `src/tests/.eslintrc.js` pair now that ESLint uses flat config by default. Jest-specific rules are scoped to `src/tests/**` inside this single file instead of a nested `.eslintrc.js`.
