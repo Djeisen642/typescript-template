@@ -1424,17 +1424,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tsconfig/node18@npm:18.2.7":
-  version: 18.2.7
-  resolution: "@tsconfig/node18@npm:18.2.7"
-  checksum: 10/625d1a390f77b03e8c8d999db76f7ddacf261156a76e906d972e89a4b7fccdafecd44c9d8ed7d51c3cd752f1d15a8deeb459ef0f870c072d7c53094817ab6373
+"@tsconfig/node18@npm:18.2.8":
+  version: 18.2.8
+  resolution: "@tsconfig/node18@npm:18.2.8"
+  checksum: 10/025bc96a8b028bd11173a53d6fa102a3fe272d179e19be7b1287f56bab457544b489e1772de7c4bac77552c7e6051580dcfdb773b8647ef36bd24f9b550a6b9f
   languageName: node
   linkType: hard
 
-"@tsconfig/strictest@npm:2.0.8":
-  version: 2.0.8
-  resolution: "@tsconfig/strictest@npm:2.0.8"
-  checksum: 10/74c493af61886c2653df94635ecb79a0d9e61ecc0136475698cfa4adbb8957583497a1907de4ed9882557fd22d187985a4e4ab28290db236d7a0dd8264a6ba44
+"@tsconfig/strictest@npm:2.0.9":
+  version: 2.0.9
+  resolution: "@tsconfig/strictest@npm:2.0.9"
+  checksum: 10/3e6c52ed387ed9d0d3f5ddb3585414bb1d215a75cbf42d4daab7810be2289b4dcf68dd98a3228a49cfdc70e7bd21ebd50dfe502173b61f4cef80ca823089b448
   languageName: node
   linkType: hard
 
@@ -4969,8 +4969,8 @@ __metadata:
     "@commitlint/cli": "npm:21.2.4"
     "@commitlint/config-conventional": "npm:21.2.4"
     "@trivago/prettier-plugin-sort-imports": "npm:6.0.2"
-    "@tsconfig/node18": "npm:18.2.7"
-    "@tsconfig/strictest": "npm:2.0.8"
+    "@tsconfig/node18": "npm:18.2.8"
+    "@tsconfig/strictest": "npm:2.0.9"
     "@types/jest": "npm:30.0.0"
     "@types/node": "npm:24.19.2"
     "@typescript-eslint/eslint-plugin": "npm:8.72.2"
