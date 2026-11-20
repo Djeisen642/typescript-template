@@ -1431,10 +1431,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tsconfig/node18@npm:18.2.8":
-  version: 18.2.8
-  resolution: "@tsconfig/node18@npm:18.2.8"
-  checksum: 10/025bc96a8b028bd11173a53d6fa102a3fe272d179e19be7b1287f56bab457544b489e1772de7c4bac77552c7e6051580dcfdb773b8647ef36bd24f9b550a6b9f
+"@tsconfig/node20@npm:20.1.0":
+  version: 20.1.0
+  resolution: "@tsconfig/node20@npm:20.1.0"
+  checksum: 10/be4c29944236c10433bafbbf5763cc26d7a095d894faf9bcefe527f7bd55a0aca56b9178b287579b8ad76af9624e9a0713bc1072e891e676e269fa933677386c
   languageName: node
   linkType: hard
 
@@ -4999,7 +4999,7 @@ __metadata:
     "@commitlint/cli": "npm:21.2.4"
     "@commitlint/config-conventional": "npm:21.2.4"
     "@trivago/prettier-plugin-sort-imports": "npm:6.0.2"
-    "@tsconfig/node18": "npm:18.2.8"
+    "@tsconfig/node20": "npm:20.1.0"
     "@tsconfig/strictest": "npm:2.0.9"
     "@types/jest": "npm:30.0.0"
     "@types/node": "npm:24.19.2"
