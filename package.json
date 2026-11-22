@@ -6,48 +6,48 @@
   "author": "Jason Suttles <jasonssuttles@gmail.com>",
   "scripts": {
     "check-types": "echo '--TSC--' && tsc --noemit",
-    "eslint": "echo '--ESLINT--' && eslint --ext \".js,.ts\" ./src",
+    "eslint": "echo '--ESLINT--' && eslint ./src",
     "preinstall": "npx only-allow yarn",
-    "prepare": "husky",
+    "postinstall": "lefthook install",
     "lint": "yarn eslint && yarn check-types",
     "prepack": "pinst --disable",
     "postpack": "pinst --enable",
-    "print-lint-rules": "eslint --print-config ./src/example.ts > ./temp/rules.txt",
-    "print-test-lint-rules": "eslint --print-config ./src/tests/example.test.ts > ./temp/test-rules.txt",
+    "print-lint-rules": "eslint --print-config ./src/index.ts > ./temp/rules.txt",
+    "print-test-lint-rules": "eslint --print-config ./src/tests/index.test.ts > ./temp/test-rules.txt",
     "test": "jest",
     "up-i": "yarn upgrade-interactive && yarn dedupe"
   },
   "devDependencies": {
     "@commitlint/cli": "21.2.4",
     "@commitlint/config-conventional": "21.2.4",
+    "@eslint/js": "10.0.1",
     "@trivago/prettier-plugin-sort-imports": "6.0.2",
-    "@tsconfig/node18": "18.2.8",
+    "@tsconfig/node26": "26.0.2",
     "@tsconfig/strictest": "2.0.9",
     "@types/jest": "30.0.0",
-    "@types/node": "24.19.2",
-    "@typescript-eslint/eslint-plugin": "8.73.0",
-    "@typescript-eslint/parser": "8.73.0",
-    "eslint": "8.57.1",
+    "@types/node": "26.6.6",
+    "eslint": "10.15.0",
     "eslint-config-prettier": "10.1.8",
     "eslint-plugin-jest": "29.17.1",
     "eslint-plugin-prettier": "5.5.7",
-    "husky": "9.1.7",
+    "globals": "17.14.0",
     "jest": "30.5.2",
+    "lefthook": "2.2.2",
     "pinst": "3.0.0",
     "prettier": "3.10.1",
     "prettier-config-standard": "7.0.0",
     "ts-jest": "29.4.15",
-    "ts-node": "10.9.2",
-    "typescript": "5.9.3"
+    "typescript": "6.0.3",
+    "typescript-eslint": "8.73.0"
   },
-  "packageManager": "yarn@4.18.1",
+  "packageManager": "yarn@4.19.0",
   "engines": {
-    "node": ">= 20",
+    "node": ">= 26",
     "npm": "please-use-yarn",
-    "yarn": ">= 4.2.2"
+    "yarn": ">= 4.19.0"
   },
   "volta": {
-    "node": "24.22.3",
-    "yarn": "4.18.1"
+    "node": "26.13.1",
+    "yarn": "4.19.0"
   }
 }

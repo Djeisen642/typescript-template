@@ -1,6 +1,7 @@
 const prettierConfigStandard = require('prettier-config-standard');
 
 const modifiedConfig = Object.assign({}, prettierConfigStandard, {
+  plugins: ['@trivago/prettier-plugin-sort-imports'],
   semi: true,
   trailingComma: 'es5',
   importOrder: ['<THIRD_PARTY_MODULES>', '^(../|./|@/)'],
