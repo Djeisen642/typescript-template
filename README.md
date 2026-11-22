@@ -2,16 +2,16 @@
 
 Template using the following tools
 
-- node 20 (https://github.com/nodejs/release#release-schedule)
+- node 26 LTS (https://github.com/nodejs/release#release-schedule)
 - nvm (https://github.com/nvm-sh/nvm) or volta (https://volta.sh/)
 - yarn (https://yarnpkg.com/)
 - typescript (https://www.typescriptlang.org/)
 - prettier (https://prettier.io/)
-- eslint (https://eslint.org/)
+- eslint with flat config and typescript-eslint (https://eslint.org/, https://typescript-eslint.io/)
 - jest (https://jestjs.io/)
-- husky (https://typicode.github.io/husky/#/)
+- lefthook (https://lefthook.dev/)
 - commitlint (https://commitlint.js.org/#/)
-- dependabot (https://docs.github.com/en/code-security/dependabot)
+- renovate (https://docs.renovatebot.com/)
 - codeql (https://codeql.github.com/)
 
 Assumes that nvm (or volta) and yarn are installed
@@ -22,9 +22,9 @@ Assumes that JetBrains IntelliJ (https://www.jetbrains.com/idea/) or Visual Stud
 
 run `nvm install` or `volta install node` to ensure that the correct node version is installed
 
-run `yarn set version berry` or `volta install yarn` to use the latest yarn version
+run `volta install yarn` (or `corepack enable`) to use the pinned yarn version
 
-run `yarn` to install packages
+run `yarn` to install packages (this also installs the lefthook git hooks)
 
 run `yarn test` to run tests
 

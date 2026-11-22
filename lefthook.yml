@@ -1,0 +1,11 @@
+pre-commit:
+  commands:
+    lint:
+      run: yarn lint
+    test:
+      run: yarn test
+
+commit-msg:
+  commands:
+    commitlint:
+      run: yarn commitlint --edit {1}
